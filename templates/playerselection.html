@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link src="{{url_for('static',filename='css/ps.css')}}" rel="stylesheet" type="text/stylesheet">
+    <!-- favicons -->
+  
+    <title>Player Selection</title>
+</head>
+<body style="background-image: url('../static/images/category-2.jpg');background-size: cover;margin-top: 10%;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="card" style="border-radius: 25px;background-color:rgb(180, 163, 163,0.5)">
+                    <div class="card-header text-center">PLAYER SELECTION</div>
+                    <div class="card-body">
+                        <form action="" method="post">
+                              <select name="std" class="form-control" style="border-radius: 25px;">
+                                <option value="Adelaide Oval">Adelaide Oval</option>
+                                <option value="Arun Jaitley Stadium">Arun Jaitley Stadium</option>
+                                <option value="Bay Oval">Bay Oval</option>
+                                <option value="Brisbane Cricket Ground">Brisbane Cricket Ground</option>
+                              </select>
+                            <br>
+                            
+                              <input type="text" required class="form-control" name="batsman" style="border-radius: 25px;" placeholder="batsman"/>
+                              
+                            <br>
+                            
+                              <input type="text" required class="form-control" name="bowlers" style="border-radius: 25px;" placeholder="bowlers"/>
+                              <br>
+                            
+                            
+                              <input type="text" class="form-control" name="allrounder" style="border-radius: 25px;" placeholder="allrounders"/>
+                              <br>
+                              <input type="submit" class="btn btn-success" style="border-radius: 25px;">
+                              
+                            
+                          </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
