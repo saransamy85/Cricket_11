@@ -1,0 +1,9 @@
+body
+{
+    background: linear-gradient(rgb(192, 185, 185),rgb(190, 183, 183));
+}
+.card
+{
+    border-radius: 25px !important;
+    margin-top: 40%;
+}
